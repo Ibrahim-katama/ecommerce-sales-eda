@@ -2,6 +2,18 @@
 
 An end-to-end exploratory data analysis (EDA) of e-commerce transaction data, focusing on revenue performance, product categories, temporal trends, customer spending behavior, and customer satisfaction.
 
+## Interactive Dashboard Features
+
+The repository includes a live Streamlit application (`app.py`) for interactive data exploration:
+
+* **Sidebar Category Filtering:** Multi-select widget to filter all key performance indicators and visualizations dynamically.
+* **Executive KPI Cards:** Real-time calculation of Total Revenue, Total Orders, and Average Order Value based on active filters.
+* **2x2 Visual Analytics Grid:**
+  * **Category Revenue Breakdown:** Seaborn bar plot showing aggregate sales by product department.
+  * **Price vs. Rating Dynamics:** Regression plot displaying customer rating distributions relative to price points.
+  * **Category Rating Distributions:** Box plot showing satisfaction score spread and medians across departments.
+  * **Monthly Revenue Performance:** Multi-color grouped bar chart breaking down monthly revenue trends by category.
+
 ## Dataset Overview
 
 The dataset contains 441 sanitized e-commerce sales records covering transactional, customer, demographic, and product information.
