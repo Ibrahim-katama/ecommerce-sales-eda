@@ -1,9 +1,7 @@
 # E-Commerce Sales Exploratory Data Analysis
-
 An end-to-end exploratory data analysis (EDA) of e-commerce transaction data, focusing on revenue performance, product categories, temporal trends, customer spending behavior, and customer satisfaction.
 
 ## Interactive Dashboard Features
-
 The repository includes a live Streamlit application (`app.py`) for interactive data exploration:
 
 * **Sidebar Category Filtering:** Multi-select widget to filter all key performance indicators and visualizations dynamically.
@@ -14,6 +12,8 @@ The repository includes a live Streamlit application (`app.py`) for interactive 
   * **Category Rating Distributions:** Box plot showing satisfaction score spread and medians across departments.
   * **Monthly Revenue Performance:** Multi-color grouped bar chart breaking down monthly revenue trends by category.
 
+**Live Interactive Dashboard:** 
+[https://ecommerce-sales-eda-4g2rwnfatwbmaaycqnuypc.streamlit.app/](https://ecommerce-sales-eda-4g2rwnfatwbmaaycqnuypc.streamlit.app/)
 ## Dataset Overview
 
 The dataset contains 441 sanitized e-commerce sales records covering transactional, customer, demographic, and product information.
@@ -63,7 +63,7 @@ The analysis explores:
 
 ## Technologies Used
 
-* Python 3.9+ , pandas, Numpy, Matplotlib, Seaborn, Jupyter Notebook.
+* Python 3.9+ , pandas, Numpy, Matplotlib, Seaborn, Jupyter Notebook, streamlit
 
 
 ## Getting Started
@@ -71,22 +71,25 @@ The analysis explores:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ecommerce-sales-eda.git
-cd ecommerce-sales-eda
+    git clone https://github.com/Ibrahim-katama/ecommerce-sales-eda.git
+    cd ecommerce-sales-eda
 ```
 
 Install the required dependencies:
 
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter
+    pip install -r requirements.txt
 ```
 
 Open the analysis notebook:
 
 ```bash
-jupyter notebook
+    jupyter notebook sales_analysis.ipynb
 ```
-
+Or Launch the interactive dashboard directly using bash:
+```bash
+    streamlit run app.py
+```
 Then open `sales_analysis.ipynb` and run the cells sequentially to reproduce the analysis, visualizations, and statistical results.
 
 ## Data Privacy
